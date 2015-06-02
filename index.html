@@ -15,18 +15,14 @@
     }
     p {
       font-size: 22px;
-      font-weight: bold;
+      font-weight: bolder;
+      font-style: italic;
     }
-    div.container {
-       height: 10em;
-       position: relative 
-    }              
-    div.container p {
-       margin: 0;
-       position: absolute;               
-       top: 50%;                         
-       transform: translate(0, -50%)
-    }  
+    div {
+      vertical-align: middle;
+      margin-top: -50%;
+      text-shadow: 2px 2px #000;  
+    }
     input {
       border: 0;
       padding: 10px;
@@ -42,12 +38,10 @@
   </style>
 </head>
 <body>
-  <div class="container">     
-      <img src="http://cdn.morguefile.com/imageData/public/files/j/jeltovski/preview/fldr_2008_11_17/file000212902595.jpg">
+  <div>
+        <img src="http://cdn.morguefile.com/imageData/public/files/j/jeltovski/preview/fldr_2008_11_17/file000212902595.jpg">
 
-      <p>Hi! I'm Joei, a DC-based developer!</p>
-      <p>Expect to see more from me in the near future...</p>
-  </div>  
-</body>
-
-
+    <h1>Hi! I'm Joei, a DC-based developer!</h1>  <br>       
+        <p> ~ Expect to see more from me in the near future... ~</p>
+</div>
+ </body>
