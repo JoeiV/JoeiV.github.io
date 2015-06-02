@@ -15,7 +15,18 @@
     }
     p {
       font-size: 22px;
+      font-weight: bold;
     }
+    div.container {
+       height: 10em;
+       position: relative 
+    }              
+    div.container p {
+       margin: 0;
+       position: absolute;               
+       top: 50%;                         
+       transform: translate(0, -50%)
+    }  
     input {
       border: 0;
       padding: 10px;
@@ -31,11 +42,12 @@
   </style>
 </head>
 <body>
-  <img src="http://cdn.morguefile.com/imageData/public/files/j/jeltovski/preview/fldr_2008_11_17/file000212902595.jpg">
-  <p>Hi! I'm Joei, a DC-based developer!</p>
-  <p>Expect to see more from me in the near future...</p>  
-  <input type="email" placeholder="Your email">
-  <input type="submit">
+  <div class="container">     
+      <img src="http://cdn.morguefile.com/imageData/public/files/j/jeltovski/preview/fldr_2008_11_17/file000212902595.jpg">
+
+      <p>Hi! I'm Joei, a DC-based developer!</p>
+      <p>Expect to see more from me in the near future...</p>
+  </div>  
 </body>
 
 
